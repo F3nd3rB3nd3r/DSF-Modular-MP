@@ -1,0 +1,13 @@
+routes = routes or {}
+routes["Qualifying Alleyway 02"] = {}
+routes["Qualifying Alleyway 02"].checkpoints = {}
+routes["Qualifying Alleyway 02"].checkpoints[1] = {}
+routes["Qualifying Alleyway 02"].checkpoints[1].position = vec.vector(931.958496, 35.705849, -3781.265625, 1)
+routes["Qualifying Alleyway 02"].checkpoints[1].heading = -1.7654512
+routes["Qualifying Alleyway 02"].checkpoints[1].roadName = "r625_shortcut_02 AI Road 0"
+routes["Qualifying Alleyway 02"].checkpoints[2] = {}
+routes["Qualifying Alleyway 02"].checkpoints[2].position = vec.vector(931.958496, 35.705849, -3781.265625, 1)
+routes["Qualifying Alleyway 02"].checkpoints[2].heading = -1.7654512
+routes["Qualifying Alleyway 02"].checkpoints[2].roadName = "r625_shortcut_02 AI Road 0"
+routes["Qualifying Alleyway 02"].arrows = {}
+routes["Qualifying Alleyway 02"].roads = {}

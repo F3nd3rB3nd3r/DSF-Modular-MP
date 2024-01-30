@@ -1,0 +1,13 @@
+routes = routes or {}
+routes["Qualifying Drift 06"] = {}
+routes["Qualifying Drift 06"].checkpoints = {}
+routes["Qualifying Drift 06"].checkpoints[1] = {}
+routes["Qualifying Drift 06"].checkpoints[1].position = vec.vector(-2593.176, 67.8454, 993.696, 1)
+routes["Qualifying Drift 06"].checkpoints[1].heading = -1.356977
+routes["Qualifying Drift 06"].checkpoints[1].roadName = "gg_shortcut_02b AI Road 1"
+routes["Qualifying Drift 06"].checkpoints[2] = {}
+routes["Qualifying Drift 06"].checkpoints[2].position = vec.vector(-2592.176, 66.8454, 993.696, 1)
+routes["Qualifying Drift 06"].checkpoints[2].heading = -1.356977
+routes["Qualifying Drift 06"].checkpoints[2].roadName = "gg_shortcut_02b AI Road 1"
+routes["Qualifying Drift 06"].arrows = {}
+routes["Qualifying Drift 06"].roads = {}

@@ -1,0 +1,13 @@
+routes = routes or {}
+routes["Qualifying Prop Smasher 05"] = {}
+routes["Qualifying Prop Smasher 05"].checkpoints = {}
+routes["Qualifying Prop Smasher 05"].checkpoints[1] = {}
+routes["Qualifying Prop Smasher 05"].checkpoints[1].position = vec.vector(-4330.257324, 14.771850, 1910.574829, 1)
+routes["Qualifying Prop Smasher 05"].checkpoints[1].heading = 3.1303747
+routes["Qualifying Prop Smasher 05"].checkpoints[1].roadName = "_unnamed road 0x26d4aca8 : 0xfe901200 AI Road 2"
+routes["Qualifying Prop Smasher 05"].checkpoints[2] = {}
+routes["Qualifying Prop Smasher 05"].checkpoints[2].position = vec.vector(-4330.257324, 14.771850, 1910.574829, 1)
+routes["Qualifying Prop Smasher 05"].checkpoints[2].heading = 3.1303747
+routes["Qualifying Prop Smasher 05"].checkpoints[2].roadName = "_unnamed road 0x26d4aca8 : 0xfe901200 AI Road 2"
+routes["Qualifying Prop Smasher 05"].arrows = {}
+routes["Qualifying Prop Smasher 05"].roads = {}

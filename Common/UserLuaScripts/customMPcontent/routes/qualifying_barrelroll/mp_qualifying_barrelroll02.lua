@@ -1,0 +1,13 @@
+routes = routes or {}
+routes["Qualifying Barrel roll 02"] = {}
+routes["Qualifying Barrel roll 02"].checkpoints = {}
+routes["Qualifying Barrel roll 02"].checkpoints[1] = {}
+routes["Qualifying Barrel roll 02"].checkpoints[1].position = vec.vector(-47.964470, 47.808990, 3294.158203, 1)
+routes["Qualifying Barrel roll 02"].checkpoints[1].heading = 1.4738231
+routes["Qualifying Barrel roll 02"].checkpoints[1].roadName = "sutro_shortcut_02 AI Road 0"
+routes["Qualifying Barrel roll 02"].checkpoints[2] = {}
+routes["Qualifying Barrel roll 02"].checkpoints[2].position = vec.vector(-47.964470, 47.808990, 3294.158203, 1)
+routes["Qualifying Barrel roll 02"].checkpoints[2].heading = 1.4738231
+routes["Qualifying Barrel roll 02"].checkpoints[2].roadName = "sutro_shortcut_02 AI Road 0"
+routes["Qualifying Barrel roll 02"].arrows = {}
+routes["Qualifying Barrel roll 02"].roads = {}
