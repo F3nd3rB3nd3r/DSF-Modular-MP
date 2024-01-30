@@ -1,0 +1,13 @@
+routes = routes or {}
+routes["Qualifying Highway rush 05"] = {}
+routes["Qualifying Highway rush 05"].checkpoints = {}
+routes["Qualifying Highway rush 05"].checkpoints[1] = {}
+routes["Qualifying Highway rush 05"].checkpoints[1].position = vec.vector(2971.456787, 45.028824, 139.764328, 1)
+routes["Qualifying Highway rush 05"].checkpoints[1].heading = 0.5101912
+routes["Qualifying Highway rush 05"].checkpoints[1].roadName = "super_highway_sliproad_02b AI Road 0"
+routes["Qualifying Highway rush 05"].checkpoints[2] = {}
+routes["Qualifying Highway rush 05"].checkpoints[2].position = vec.vector(2971.456787, 45.028824, 139.764328, 1)
+routes["Qualifying Highway rush 05"].checkpoints[2].heading = 0.5101912
+routes["Qualifying Highway rush 05"].checkpoints[2].roadName = "super_highway_sliproad_02b AI Road 0"
+routes["Qualifying Highway rush 05"].arrows = {}
+routes["Qualifying Highway rush 05"].roads = {}

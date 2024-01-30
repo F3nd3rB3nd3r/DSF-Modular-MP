@@ -1,0 +1,13 @@
+routes = routes or {}
+routes["Qualifying Fiat hunt 06"] = {}
+routes["Qualifying Fiat hunt 06"].checkpoints = {}
+routes["Qualifying Fiat hunt 06"].checkpoints[1] = {}
+routes["Qualifying Fiat hunt 06"].checkpoints[1].position = vec.vector(-191.646423, 44.562866, -20.182400, 1)
+routes["Qualifying Fiat hunt 06"].checkpoints[1].heading = -2.8837428
+routes["Qualifying Fiat hunt 06"].checkpoints[1].roadName = "lombard_street AI Road 0"
+routes["Qualifying Fiat hunt 06"].checkpoints[2] = {}
+routes["Qualifying Fiat hunt 06"].checkpoints[2].position = vec.vector(-191.646423, 44.562866, -20.182400, 1)
+routes["Qualifying Fiat hunt 06"].checkpoints[2].heading = -2.8837428
+routes["Qualifying Fiat hunt 06"].checkpoints[2].roadName = "lombard_street AI Road 0"
+routes["Qualifying Fiat hunt 06"].arrows = {}
+routes["Qualifying Fiat hunt 06"].roads = {}
