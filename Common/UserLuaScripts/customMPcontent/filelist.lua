@@ -5,13 +5,7 @@ local fileList = {
   "customMPcontent\\utils\\moods.lua",
   "customMPcontent\\utils\\onlinescreendata.lua",
   "customMPcontent\\utils\\props.lua",
-  "customMPcontent\\settings\\pureraceadditionalsettings.lua",
-  "customMPcontent\\settings\\trailblazeradditionalsettings.lua",
   "customMPcontent\\hud\\pureracehud.lua",
-  "customMPcontent\\Logic\\pureracelogic.lua",
-  "customMPcontent\\Logic\\sprintracelogic.lua",
-  "customMPcontent\\Logic\\takedownlogic.lua",
-  "customMPcontent\\Logic\\trailblazerlogic.lua",
   "customMPcontent\\Props\\qualifyinghighwayrush02.lua",
   "customMPcontent\\Props\\qualifyinghighwayrush03.lua",
   "customMPcontent\\Props\\qualifyinghighwayrush04.lua",
@@ -135,7 +129,15 @@ local fileList = {
   "customMPcontent\\qualifying\\overtake.lua",
   "customMPcontent\\qualifying\\propsmasher.lua",
   "customMPcontent\\qualifying\\ramptruckrodeo.lua",
-  "customMPcontent\\qualifying\\Smash.lua"
+  "customMPcontent\\qualifying\\Smash.lua",
+  "customMPcontent\\settings\\pureraceadditionalsettings.lua",
+  "customMPcontent\\settings\\trailblazeradditionalsettings.lua",
+  "customMPcontent\\missionsetupdata\\pureracemissionsetupdata.lua",
+  "customMPcontent\\missionsetupdata\\sprintracemissionsetupdata.lua",
+  "customMPcontent\\Logic\\pureracelogic.lua",
+  "customMPcontent\\Logic\\sprintracelogic.lua",
+  "customMPcontent\\Logic\\takedownlogic.lua",
+  "customMPcontent\\Logic\\trailblazerlogic.lua",
 }
 
 local function loadFiles()
