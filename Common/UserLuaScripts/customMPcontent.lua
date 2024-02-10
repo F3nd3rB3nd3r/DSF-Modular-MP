@@ -4,8 +4,11 @@ local folderPrefix = "COM:UserLuascripts\\customMPcontent\\"
 
 local function isPlayerInPartyBus()
 	if PartyBusManager.IsInPartyBus() then
+		print("loading custom MP files")
+		
 		loadFile("filelist.lua")
 		removeUserUpdateFunction("customMPcontent_checkIsPlayerInPartyBus")
+		
 		print("loaded")
 	end
 end

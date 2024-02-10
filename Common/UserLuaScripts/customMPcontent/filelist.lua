@@ -140,8 +140,6 @@ local fileList = {
   "Logic\\trailblazerlogic.lua",
 }
 
-print("loading custom MP files")
-
 for _,v in pairs(fileList) do
 	customMPcontent.loadFile(v)
 end
