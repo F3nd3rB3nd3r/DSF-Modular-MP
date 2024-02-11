@@ -484,3 +484,11 @@ OnlineModeSettings.siroccoOnly = {
     }
   }
 }
+OnlineModeSettings.fiat500Only = {
+  [1] = {
+    vehicleID = 184,
+    shader = {
+      [0] = -1
+    }
+  }
+}
