@@ -10,6 +10,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Downtown To Marin Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Downtown To Marin Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\purerace\\MP_PureRace10.lua",
@@ -26,6 +27,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Figure 8 RS200 Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Figure 8 RS200 Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 3
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 3
 		end,
 		spawnPositions = {
 			routeName = "routes\\purerace\\MP_PureRace11.lua",
@@ -42,6 +44,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Figure 8 Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Figure 8 Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 4
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 4
 		end,
 		spawnPositions = {
 			routeName = "routes\\purerace\\mp_sprintrace27.lua",
@@ -59,6 +62,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Downtown Alleyway Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Downtown Alleyway Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 1
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 1
 		end,
 		spawnPositions = {
 			routeName = "routes\\purerace\\mp_sprintrace28.lua",
@@ -76,6 +80,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Mother Trucker Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Mother Trucker Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 1
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 1
 		end,
 		spawnPositions = {
 			routeName = "routes\\purerace\\MP_PureRace12.lua",
@@ -93,6 +98,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Going Up And Down Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Going Up And Down Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 1
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 1
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace13.lua",
@@ -110,6 +116,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Scattered Checkpoints Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Scattered Checkpoints Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 1
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 1
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace14.lua",
@@ -127,6 +134,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Supercar Showoff Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Supercar Showoff Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace15.lua",
@@ -144,6 +152,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Speed Race Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Speed Race Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 			TrafficSpooler.RequestMissionVehicle(267)
 			TrafficSpooler.RequestMissionVehicle(271)
 			TrafficSpooler.RequestMissionVehicle(280)
@@ -163,6 +172,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Bamboozled Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Bamboozled Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace17.lua",
@@ -180,6 +190,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Deja Vu Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Deja Vu Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace18.lua",
@@ -197,6 +208,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["LongAlleyMcnalley Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["LongAlleyMcnalley Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 			TrafficSpooler.RequestMissionVehicle(156)
 			TrafficSpooler.RequestMissionVehicle(269)
 		end,
@@ -216,6 +228,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Rush To Crash Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Rush To Crash Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace20.lua",
@@ -233,6 +246,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Ambulance for Kilo Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Ambulance for Kilo Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace21.lua",
@@ -250,6 +264,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Driver Madness Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Driver Madness Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace22.lua",
@@ -267,6 +282,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Around The World Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Around The World Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 9
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 9
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace23.lua",
@@ -284,6 +300,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Lost Tourist Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Lost Tourist Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace24.lua",
@@ -301,6 +318,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Rally Jam Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Rally Jam Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace25.lua",
@@ -319,6 +337,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Ruf Away Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Ruf Away Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 			TrafficSpooler.RequestMissionVehicle(269)
 		end,
 		spawnPositions = {
@@ -338,6 +357,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Kaboom Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Kaboom Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace27.lua",
@@ -355,6 +375,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Wrong Place Wrong Time Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Wrong Place Wrong Time Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 			TrafficSpooler.RequestMissionVehicle(214)
 			TrafficSpooler.RequestMissionVehicle(280)
 			TrafficSpooler.RequestMissionVehicle(269)
@@ -375,6 +396,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Double ramp Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Double ramp Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace29.lua",
@@ -393,6 +415,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Soccermom Mayhem Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Soccermom Mayhem Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 			TrafficSpooler.RequestMissionVehicle(198)
 			TrafficSpooler.RequestMissionVehicle(287)
 		end,
@@ -412,6 +435,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["A Dark Day Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["A Dark Day Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace31.lua",
@@ -429,6 +453,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Twisting turns Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Twisting turns Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 			TrafficSpooler.RequestMissionVehicle(269)
 		end,
 		spawnPositions = {
@@ -447,6 +472,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Rallycross faceoff Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Rallycross faceoff Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 2
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 2
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace33.lua",
@@ -464,6 +490,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Police Training Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Police Training Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 2
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 2
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace34.lua",
@@ -481,6 +508,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Multi-vehicle Race Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Multi-vehicle Race Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace35.lua",
@@ -498,6 +526,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Time Traveller Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Time Traveller Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace36.lua",
@@ -515,6 +544,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["To The Highway Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["To The Highway Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace37.lua",
@@ -532,6 +562,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Wrong Way My Friend Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Wrong Way My Friend Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace38.lua",
@@ -549,6 +580,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["To The Left To The Right Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["To The Left To The Right Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace39.lua",
@@ -566,6 +598,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Speedy Delivery Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Speedy Delivery Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace40.lua",
@@ -583,6 +616,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Garage to Garage Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Garage to Garage Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace41.lua",
@@ -600,6 +634,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Going Across Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Going Across Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace42.lua",
@@ -617,6 +652,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Bumpy bump Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Bumpy bump Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace43.lua",
@@ -634,6 +670,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Most optimal route please Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Most optimal route please Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace44.lua",
@@ -651,6 +688,7 @@ local pureRaceMissionSetupData = {
 			spawnPosition.positionA = routes["TOO MUCH CUTTING CORNERS Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["TOO MUCH CUTTING CORNERS Start"].checkpoints[1].heading
 			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace45.lua",

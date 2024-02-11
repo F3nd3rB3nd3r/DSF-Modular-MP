@@ -260,6 +260,7 @@ local pureRaceAdditonalSettings = {
 		addUserUpdateFunction("Block boost pure race", onlineProgressionSystem.onlineAbilityData[1].resetFunc(), 1)
 	end,
 	cleanUp = function()
+		propSystem.reenableAllPropTypes()
 		scoreSystem.showAbilityFeedback(localPlayer.localID, false)
 		removeUserUpdateFunction("Block boost pure race")
 	end
@@ -285,6 +286,7 @@ local pureRaceAdditonalSettings = {
 		addUserUpdateFunction("Block boost pure race", onlineProgressionSystem.onlineAbilityData[1].resetFunc(), 1)
 	end,
 	cleanUp = function()
+		propSystem.reenableAllPropTypes()
 		scoreSystem.showAbilityFeedback(localPlayer.localID, false)
 		removeUserUpdateFunction("Block boost pure race")
 	end
