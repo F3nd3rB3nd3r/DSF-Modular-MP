@@ -6,7 +6,6 @@ local carSwitchVehicle2 = 0
 local carSwitchVehicle3 = 0
 local firstSwitchCheckpoint = 0
 local secondSwitchCheckpoint = 0
-local boostBlocked = false
 local delayOn = false
 local delay = 0
 local carSwapVehicleID = 0
@@ -14,9 +13,14 @@ local boomPlayed = false
 local lap1Done = false
 local lap2Done = false
 
-local function blockBoostHUD()
-	boostBlocked = true
+local function blockBoost()
 	scoreSystem.showAbilityFeedback(localPlayer.localID, false)
+	localPlayer:blockAbility("nitro", true)
+end
+
+local function unblockBoost()
+	scoreSystem.showAbilityFeedback(localPlayer.localID, true)
+	localPlayer:blockAbility("nitro", false)
 end
 
 local blockChaseCam = function()
@@ -256,25 +260,21 @@ local pureRaceAdditonalSettings = {
 	end,
 	startSettings = function()
 		propSystem.disablePropType("DO_NOT_USE_shutter_A", "DO_NOT_USE_shutter_B", "DO_NOT_USE_Wall_A")
-		blockBoostHUD()
-		addUserUpdateFunction("Block boost pure race", onlineProgressionSystem.onlineAbilityData[1].resetFunc(), 1)
+		blockBoost()
 	end,
 	cleanUp = function()
 		propSystem.reenableAllPropTypes()
-		scoreSystem.showAbilityFeedback(localPlayer.localID, false)
-		removeUserUpdateFunction("Block boost pure race")
+		unblockBoost()
 	end
  },
  [41] = {
 	preStartSettings = function()
 	end,
 	startSettings = function()
-		blockBoostHUD()
-		addUserUpdateFunction("Block boost pure race", onlineProgressionSystem.onlineAbilityData[1].resetFunc(), 1)
+		blockBoost()
 	end,
 	cleanUp = function()
-		scoreSystem.showAbilityFeedback(localPlayer.localID, false)
-		removeUserUpdateFunction("Block boost pure race")
+		unblockBoost()
 	end
  },
  [42] = {
@@ -282,37 +282,31 @@ local pureRaceAdditonalSettings = {
 	end,
 	startSettings = function()
 		propSystem.disablePropType("DO_NOT_USE_shutter_A", "DO_NOT_USE_shutter_B", "DO_NOT_USE_Wall_A")
-		blockBoostHUD()
-		addUserUpdateFunction("Block boost pure race", onlineProgressionSystem.onlineAbilityData[1].resetFunc(), 1)
+		blockBoost()
 	end,
 	cleanUp = function()
 		propSystem.reenableAllPropTypes()
-		scoreSystem.showAbilityFeedback(localPlayer.localID, false)
-		removeUserUpdateFunction("Block boost pure race")
+		unblockBoost()
 	end
  },
  [43] = {
 	preStartSettings = function()
 	end,
 	startSettings = function()
-		blockBoostHUD()
-		addUserUpdateFunction("Block boost pure race", onlineProgressionSystem.onlineAbilityData[1].resetFunc(), 1)
+		blockBoost()
 	end,
 	cleanUp = function()
-		scoreSystem.showAbilityFeedback(localPlayer.localID, false)
-		removeUserUpdateFunction("Block boost pure race")
+		unblockBoost()
 	end
  },
  [44] = {
 	preStartSettings = function()
 	end,
 	startSettings = function()
-		blockBoostHUD()
-		addUserUpdateFunction("Block boost pure race", onlineProgressionSystem.onlineAbilityData[1].resetFunc(), 1)
+		blockBoost()
 	end,
 	cleanUp = function()
-		scoreSystem.showAbilityFeedback(localPlayer.localID, false)
-		removeUserUpdateFunction("Block boost pure race")
+		unblockBoost()
 	end
  },
 }
