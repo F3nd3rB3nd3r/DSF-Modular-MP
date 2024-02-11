@@ -57,6 +57,7 @@ local fileList = {
   "routes\\purerace\\mp_purerace43.lua",
   "routes\\purerace\\mp_purerace44.lua",
   "routes\\purerace\\mp_purerace45.lua",
+  "routes\\purerace\\mp_purerace46.lua",
   "routes\\qualifying_alleyway\\MP_Qualifying_Alleyway01.lua",
   "routes\\qualifying_alleyway\\MP_Qualifying_Alleyway02.lua",
   "routes\\qualifying_alleyway\\MP_Qualifying_Alleyway03.lua",

@@ -2,7 +2,7 @@ module("customMPcontent.missionSetupData", package.seeall)
 
 local pureRaceMissionSetupData = {
 	[10] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Downtown To Marin"].roads
 			spawnPosition.arrows = routes["Downtown To Marin"].arrows
 			spawnPosition.route = routes["Downtown To Marin"].checkpoints
@@ -20,7 +20,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[11] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Figure 8 RS200"].roads
 			spawnPosition.route = routes["Figure 8 RS200"].checkpoints
 			spawnPosition.target = routes["Figure 8 RS200 Start"].checkpoints[1].position
@@ -37,7 +37,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[12] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Figure 8"].roads
 			spawnPosition.route = routes["Figure 8"].checkpoints
 			spawnPosition.target = routes["Figure 8 Start"].checkpoints[1].position
@@ -54,7 +54,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[13] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Downtown Alleyway"].roads
 			spawnPosition.arrows = routes["Downtown Alleyway"].arrows
 			spawnPosition.route = routes["Downtown Alleyway"].checkpoints
@@ -72,7 +72,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[14] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Mother Trucker"].roads
 			spawnPosition.arrows = routes["Mother Trucker"].arrows
 			spawnPosition.route = routes["Mother Trucker"].checkpoints
@@ -90,7 +90,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[15] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Going Up And Down"].roads
 			spawnPosition.arrows = routes["Going Up And Down"].arrows
 			spawnPosition.route = routes["Going Up And Down"].checkpoints
@@ -108,7 +108,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[16] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Scattered Checkpoints"].roads
 			spawnPosition.arrows = routes["Scattered Checkpoints"].arrows
 			spawnPosition.route = routes["Scattered Checkpoints"].checkpoints
@@ -126,7 +126,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[17] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Supercar Showoff"].roads
 			spawnPosition.arrows = routes["Supercar Showoff"].arrows
 			spawnPosition.route = routes["Supercar Showoff"].checkpoints
@@ -144,7 +144,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[18] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Speed Race"].roads
 			spawnPosition.route = routes["Speed Race"].checkpoints
 			spawnPosition.arrows = routes["Speed Race"].arrows
@@ -165,7 +165,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[19] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes.Bamboozled.roads
 			spawnPosition.route = routes.Bamboozled.checkpoints
 			spawnPosition.target = routes["Bamboozled Start"].checkpoints[1].position
@@ -182,7 +182,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[20] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Deja Vu"].roads
 			spawnPosition.route = routes["Deja Vu"].checkpoints
 			spawnPosition.arrows = routes["Deja Vu"].arrows
@@ -200,7 +200,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[21] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes.LongAlleyMcnalley.roads
 			spawnPosition.route = routes.LongAlleyMcnalley.checkpoints
 			spawnPosition.arrows = routes["LongAlleyMcnalley"].arrows
@@ -220,7 +220,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[22] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Rush To Crash"].roads
 			spawnPosition.route = routes["Rush To Crash"].checkpoints
 			spawnPosition.arrows = routes["Rush To Crash"].arrows
@@ -238,7 +238,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[23] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Ambulance for Kilo"].roads
 			spawnPosition.route = routes["Ambulance for Kilo"].checkpoints
 			spawnPosition.arrows = routes["Ambulance for Kilo"].arrows
@@ -256,7 +256,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[24] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Driver Madness"].roads
 			spawnPosition.route = routes["Driver Madness"].checkpoints
 			spawnPosition.arrows = routes["Driver Madness"].arrows
@@ -274,7 +274,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[25] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Around The World"].roads
 			spawnPosition.route = routes["Around The World"].checkpoints
 			spawnPosition.arrows = routes["Around The World"].arrows
@@ -292,7 +292,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[26] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Lost Tourist"].roads
 			spawnPosition.route = routes["Lost Tourist"].checkpoints
 			spawnPosition.arrows = routes["Lost Tourist"].arrows
@@ -310,7 +310,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[27] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Rally Jam"].roads
 			spawnPosition.arrows = routes["Rally Jam"].arrows
 			spawnPosition.route = routes["Rally Jam"].checkpoints
@@ -329,7 +329,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[28] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Ruf Away"].roads
 			spawnPosition.arrows = routes["Ruf Away"].arrows
 			spawnPosition.route = routes["Ruf Away"].checkpoints
@@ -349,7 +349,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[29] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes.Kaboom.roads
 			spawnPosition.arrows = routes.Kaboom.arrows
 			spawnPosition.route = routes.Kaboom.checkpoints
@@ -367,7 +367,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[30] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Wrong Place Wrong Time"].roads
 			spawnPosition.arrows = routes["Wrong Place Wrong Time"].arrows
 			spawnPosition.route = routes["Wrong Place Wrong Time"].checkpoints
@@ -388,7 +388,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[31] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Double ramp"].roads
 			spawnPosition.arrows = routes["Double ramp"].arrows
 			spawnPosition.route = routes["Double ramp"].checkpoints
@@ -407,7 +407,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[32] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Soccermom Mayhem"].roads
 			spawnPosition.arrows = routes["Soccermom Mayhem"].arrows
 			spawnPosition.route = routes["Soccermom Mayhem"].checkpoints
@@ -427,7 +427,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[33] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["A Dark Day"].roads
 			spawnPosition.arrows = routes["A Dark Day"].arrows
 			spawnPosition.route = routes["A Dark Day"].checkpoints
@@ -445,7 +445,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[34] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Twisting turns"].roads
 			spawnPosition.arrows = routes["Twisting turns"].arrows
 			spawnPosition.route = routes["Twisting turns"].checkpoints
@@ -464,7 +464,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[35] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Rallycross faceoff"].roads
 			spawnPosition.arrows = routes["Rallycross faceoff"].arrows
 			spawnPosition.route = routes["Rallycross faceoff"].checkpoints
@@ -482,7 +482,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[36] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Police Training"].roads
 			spawnPosition.arrows = routes["Police Training"].arrows
 			spawnPosition.route = routes["Police Training"].checkpoints
@@ -500,7 +500,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[37] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Multi-vehicle Race"].roads
 			spawnPosition.arrows = routes["Multi-vehicle Race"].arrows
 			spawnPosition.route = routes["Multi-vehicle Race"].checkpoints
@@ -518,7 +518,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[38] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Time Traveller"].roads
 			spawnPosition.arrows = routes["Time Traveller"].arrows
 			spawnPosition.route = routes["Time Traveller"].checkpoints
@@ -536,7 +536,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[39] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["To The Highway"].roads
 			spawnPosition.arrows = routes["To The Highway"].arrows
 			spawnPosition.route = routes["To The Highway"].checkpoints
@@ -554,7 +554,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[40] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Wrong Way My Friend"].roads
 			spawnPosition.arrows = routes["Wrong Way My Friend"].arrows
 			spawnPosition.route = routes["Wrong Way My Friend"].checkpoints
@@ -572,7 +572,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[41] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["To The Left To The Right"].roads
 			spawnPosition.arrows = routes["To The Left To The Right"].arrows
 			spawnPosition.route = routes["To The Left To The Right"].checkpoints
@@ -590,7 +590,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[42] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Speedy Delivery"].roads
 			spawnPosition.arrows = routes["Speedy Delivery"].arrows
 			spawnPosition.route = routes["Speedy Delivery"].checkpoints
@@ -608,7 +608,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[43] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Garage to Garage"].roads
 			spawnPosition.arrows = routes["Garage to Garage"].arrows
 			spawnPosition.route = routes["Garage to Garage"].checkpoints
@@ -626,7 +626,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[44] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Going Across"].roads
 			spawnPosition.arrows = routes["Going Across"].arrows
 			spawnPosition.route = routes["Going Across"].checkpoints
@@ -644,7 +644,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[45] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Bumpy bump"].roads
 			spawnPosition.arrows = routes["Bumpy bump"].arrows
 			spawnPosition.route = routes["Bumpy bump"].checkpoints
@@ -662,7 +662,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[46] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Most optimal route please"].roads
 			spawnPosition.arrows = routes["Most optimal route please"].arrows
 			spawnPosition.route = routes["Most optimal route please"].checkpoints
@@ -680,7 +680,7 @@ local pureRaceMissionSetupData = {
 		}
 	},
 	[47] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["TOO MUCH CUTTING CORNERS"].roads
 			spawnPosition.arrows = routes["TOO MUCH CUTTING CORNERS"].arrows
 			spawnPosition.route = routes["TOO MUCH CUTTING CORNERS"].checkpoints
@@ -693,6 +693,24 @@ local pureRaceMissionSetupData = {
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace45.lua",
 			vehicleSet = OnlineModeSettings.siroccoOnly,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 2
+		}
+	},
+	[48] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Dirty Flirty Trip"].roads
+			spawnPosition.arrows = routes["Dirty Flirty Trip"].arrows
+			spawnPosition.route = routes["Dirty Flirty Trip"].checkpoints
+			spawnPosition.target = routes["Dirty Flirty Trip Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Dirty Flirty Trip Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Dirty Flirty Trip Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace46.lua",
+			vehicleSet = OnlineModeSettings.fiat500Only,
 			moods = OnlineModeSettings.onlineMoodsMarin,
 			trafficSet = 2
 		}
