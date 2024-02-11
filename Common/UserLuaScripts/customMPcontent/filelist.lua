@@ -5,7 +5,6 @@ local fileList = {
   "utils\\moods.lua",
   "utils\\onlinescreendata.lua",
   "utils\\props.lua",
-  "hud\\pureracehud.lua",
   "Props\\qualifyinghighwayrush02.lua",
   "Props\\qualifyinghighwayrush03.lua",
   "Props\\qualifyinghighwayrush04.lua",
