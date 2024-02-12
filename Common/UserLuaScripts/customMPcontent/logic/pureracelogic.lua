@@ -1,13 +1,13 @@
 local i = 10
 
 while true do 
-	cardSystem.logic.missionSetupData["Multiplayer pure race"].usableRouteIndicies[i] = i
-	
 	local customMissionSetupData = customMPcontent.missionSetupData.getPureRaceMissionSetupData(i)
 	
 	if not customMissionSetupData then
 		break;
 	end
+
+	cardSystem.logic.missionSetupData["Multiplayer pure race"].usableRouteIndicies[i] = i
 	
 	cardSystem.logic.missionSetupData["Multiplayer pure race"].buildSpawnPositionFunctions[i] = customMissionSetupData.buildSpawnPositionFunctions
 	
