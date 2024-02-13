@@ -715,6 +715,24 @@ local pureRaceMissionSetupData = {
 			trafficSet = 2
 		}
 	},
+	[49] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Twisting News"].roads
+			spawnPosition.arrows = routes["Twisting News"].arrows
+			spawnPosition.route = routes["Twisting News"].checkpoints
+			spawnPosition.target = routes["Twisting News Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Twisting News Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Twisting News Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace47.lua",
+			vehicleSet = OnlineModeSettings.vehicleGMCBoxNews,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 2
+		}
+	},
 }
 
 function getPureRaceMissionSetupData(routeIndex)

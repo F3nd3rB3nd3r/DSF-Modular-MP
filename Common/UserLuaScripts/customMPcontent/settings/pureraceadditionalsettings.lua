@@ -261,10 +261,12 @@ local pureRaceAdditonalSettings = {
 	startSettings = function()
 		propSystem.disablePropType("DO_NOT_USE_shutter_A", "DO_NOT_USE_shutter_B", "DO_NOT_USE_Wall_A")
 		blockBoost()
+		Atlas.JerichoAlleyWayActive(true)
 	end,
 	cleanUp = function()
 		propSystem.reenableAllPropTypes()
 		unblockBoost()
+		Atlas.JerichoAlleyWayActive(false)
 	end
  },
  [41] = {
@@ -283,10 +285,12 @@ local pureRaceAdditonalSettings = {
 	startSettings = function()
 		propSystem.disablePropType("DO_NOT_USE_shutter_A", "DO_NOT_USE_shutter_B", "DO_NOT_USE_Wall_A")
 		blockBoost()
+		Atlas.JerichoAlleyWayActive(true)
 	end,
 	cleanUp = function()
 		propSystem.reenableAllPropTypes()
 		unblockBoost()
+		Atlas.JerichoAlleyWayActive(false)
 	end
  },
  [43] = {
@@ -361,7 +365,6 @@ function pureRaceSprintCarSwitch(instance)
 		delay = 0
 		delayOn = false
 	end
-
 end
 
 function getPureRaceAdditionalSettings(routeIndex)

@@ -71,7 +71,6 @@ cardSystem.formattedMissionData["MP pure race"].missionFunctions.missionEnd = fu
   if settings then
 	settings.cleanUp()
   end
-	
 end
 
 cardSystem.formattedMissionData["MP pure race"].missionFunctions.missionStart = function(instance)
@@ -88,8 +87,8 @@ cardSystem.formattedMissionData["MP pure race"].missionFunctions.missionStart = 
 	if settings then
 	  settings.startSettings()
 	end
-	
   end
+  
   for playerID, player in next, playerManager.players, nil do
     if player and player.currentVehicle then
       player.currentVehicle.gameVehicle.maxAllowedDamage = 0.74
