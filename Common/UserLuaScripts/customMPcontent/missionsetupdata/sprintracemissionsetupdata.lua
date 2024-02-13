@@ -2,7 +2,7 @@ module("customMPcontent.missionSetupData", package.seeall)
 
 local sprintRaceMissionSetupData = {
 	[26] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Sprint Race 26"].roads
 			spawnPosition.route = routes["Sprint Race 26"].checkpoints
 			spawnPosition.arrows = routes["Sprint Race 26"].arrows
@@ -21,7 +21,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[27] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Sprint Race 29"].roads
 			spawnPosition.route = routes["Sprint Race 29"].checkpoints
 			spawnPosition.arrows = routes["Sprint Race 29"].arrows
@@ -40,7 +40,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[28] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Sprint Race 30"].roads
 			spawnPosition.route = routes["Sprint Race 30"].checkpoints
 			spawnPosition.arrows = routes["Sprint Race 30"].arrows
@@ -59,7 +59,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[29] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Sprint Race 31"].roads
 			spawnPosition.route = routes["Sprint Race 31"].checkpoints
 			spawnPosition.arrows = routes["Sprint Race 31"].arrows
@@ -78,7 +78,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[30] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Sprint Race 32"].roads
 			spawnPosition.route = routes["Sprint Race 32"].checkpoints
 			spawnPosition.arrows = routes["Sprint Race 32"].arrows
@@ -97,7 +97,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[31] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Sprint Race 33"].roads
 			spawnPosition.route = routes["Sprint Race 33"].checkpoints
 			spawnPosition.arrows = routes["Sprint Race 33"].arrows
@@ -116,7 +116,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[32] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Sprint Race 34"].roads
 			spawnPosition.route = routes["Sprint Race 34"].checkpoints
 			spawnPosition.arrows = routes["Sprint Race 34"].arrows
@@ -135,7 +135,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[33] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Sprint Race 35"].roads
 			spawnPosition.route = routes["Sprint Race 35"].checkpoints
 			spawnPosition.arrows = routes["Sprint Race 35"].arrows
@@ -154,7 +154,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[34] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes.SmalleyMcnalley.roads
 			spawnPosition.route = routes.SmalleyMcnalley.checkpoints
 			spawnPosition.arrows = routes.SmalleyMcnalley.arrows
@@ -173,7 +173,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[35] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Head-On Bang-On"].roads
 			spawnPosition.route = routes["Head-On Bang-On"].checkpoints
 			spawnPosition.arrows = routes["Head-On Bang-On"].arrows
@@ -195,7 +195,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[36] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Old Boys"].roads
 			spawnPosition.route = routes["Old Boys"].checkpoints
 			spawnPosition.arrows = routes["Old Boys"].arrows
@@ -217,7 +217,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[37] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Race in the Face"].roads
 			spawnPosition.route = routes["Race in the Face"].checkpoints
 			spawnPosition.arrows = routes["Race in the Face"].arrows
@@ -236,7 +236,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[38] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["To China! (Town)"].roads
 			spawnPosition.route = routes["To China! (Town)"].checkpoints
 			spawnPosition.arrows = routes["To China! (Town)"].arrows
@@ -255,7 +255,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[39] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Car go fast"].roads
 			spawnPosition.route = routes["Car go fast"].checkpoints
 			spawnPosition.arrows = routes["Car go fast"].arrows
@@ -274,7 +274,7 @@ local sprintRaceMissionSetupData = {
 		}
 	},
 	[40] = {
-		buildSpawnPositionFunctions =function(spawnPosition)
+		buildSpawnPositionFunctions = function(spawnPosition)
 			spawnPosition.roads = routes["Buggy McBugface"].roads
 			spawnPosition.route = routes["Buggy McBugface"].checkpoints
 			spawnPosition.arrows = routes["Buggy McBugface"].arrows
@@ -290,6 +290,158 @@ local sprintRaceMissionSetupData = {
 				[1] = "onlineMoodsDowntownFog"
 			},
 			trafficSet = -1,
+		}
+	},
+	[41] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["There is a tollbooth in this game?"].roads
+			spawnPosition.route = routes["There is a tollbooth in this game?"].checkpoints
+			spawnPosition.arrows = routes["There is a tollbooth in this game?"].arrows
+			spawnPosition.target = routes["There is a tollbooth in this game? Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["There is a tollbooth in this game? Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["There is a tollbooth in this game? Start"].checkpoints[1].heading
+			spawnPosition.endTargetRoads = routes["There is a tollbooth in this game? Target"].roads
+		end,
+		spawnPositions = {
+			routeName = "RouteData\\MP_SprintRace43.lua",
+			vehicleSet = OnlineModeSettings.vehicleSolsticeGXPNissan,
+			moods = {
+				[1] = "onlineMoodsDowntownFog"
+			},
+			trafficSet = 3,
+		}
+	},
+	[42] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Tight Start"].roads
+			spawnPosition.route = routes["Tight Start"].checkpoints
+			spawnPosition.arrows = routes["Tight Start"].arrows
+			spawnPosition.target = routes["Tight Start Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Tight Start Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Tight Start Start"].checkpoints[1].heading
+			spawnPosition.endTargetRoads = routes["Tight Start Target"].roads
+		end,
+		spawnPositions = {
+			routeName = "RouteData\\MP_SprintRace44.lua",
+			vehicleSet = OnlineModeSettings.vehicleNewGT500,
+			moods = {
+				[1] = "onlineMoodsDowntownFog"
+			},
+			trafficSet = 4,
+		}
+	},
+	[43] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Roundabout Flashback"].roads
+			spawnPosition.route = routes["Roundabout Flashback"].checkpoints
+			spawnPosition.arrows = routes["Roundabout Flashback"].arrows
+			spawnPosition.target = routes["Roundabout Flashback Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Roundabout Flashback Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Roundabout Flashback Start"].checkpoints[1].heading
+			spawnPosition.endTargetRoads = routes["Roundabout Flashback Target"].roads
+		end,
+		spawnPositions = {
+			routeName = "RouteData\\MP_SprintRace45.lua",
+			vehicleSet = OnlineModeSettings.R33,
+			moods = {
+				[1] = "onlineMoodsDowntownFog"
+			},
+			trafficSet = 6,
+		}
+	},
+	[44] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Not Enough Time"].roads
+			spawnPosition.route = routes["Not Enough Time"].checkpoints
+			spawnPosition.arrows = routes["Not Enough Time"].arrows
+			spawnPosition.target = routes["Not Enough Time Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Not Enough Time Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Not Enough Time Start"].checkpoints[1].heading
+			spawnPosition.endTargetRoads = routes["Not Enough Time Target"].roads
+		end,
+		spawnPositions = {
+			routeName = "RouteData\\MP_SprintRace46.lua",
+			vehicleSet = OnlineModeSettings.McLarenF1,
+			moods = {
+				[1] = "onlineMoodsDowntownFog"
+			},
+			trafficSet = 10,
+		}
+	},
+	[45] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["HOA Crossing"].roads
+			spawnPosition.route = routes["HOA Crossing"].checkpoints
+			spawnPosition.arrows = routes["HOA Crossing"].arrows
+			spawnPosition.target = routes["HOA Crossing Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["HOA Crossing Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["HOA Crossing Start"].checkpoints[1].heading
+			spawnPosition.endTargetRoads = routes["HOA Crossing Target"].roads
+		end,
+		spawnPositions = {
+			routeName = "RouteData\\MP_SprintRace47.lua",
+			vehicleSet = OnlineModeSettings.AudiS5,
+			moods = {
+				[1] = "onlineMoodsDowntownFog"
+			},
+			trafficSet = 1,
+		}
+	},
+	[46] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Quick Repair"].roads
+			spawnPosition.route = routes["Quick Repair"].checkpoints
+			spawnPosition.arrows = routes["Quick Repair"].arrows
+			spawnPosition.target = routes["Quick Repair Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Quick Repair Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Quick Repair Start"].checkpoints[1].heading
+			spawnPosition.endTargetRoads = routes["Quick Repair Target"].roads
+		end,
+		spawnPositions = {
+			routeName = "RouteData\\MP_SprintRace48.lua",
+			vehicleSet = OnlineModeSettings.fiat500Only,
+			moods = {
+				[1] = "onlineMoodsDowntownFog"
+			},
+			trafficSet = 3,
+		}
+	},
+	[47] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Bullrun Loop"].roads
+			spawnPosition.route = routes["Bullrun Loop"].checkpoints
+			spawnPosition.arrows = routes["Bullrun Loop"].arrows
+			spawnPosition.target = routes["Bullrun Loop Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Bullrun Loop Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Bullrun Loop Start"].checkpoints[1].heading
+			spawnPosition.endTargetRoads = routes["Bullrun Loop Target"].roads
+		end,
+		spawnPositions = {
+			routeName = "RouteData\\MP_SprintRace49.lua",
+			vehicleSet = OnlineModeSettings.vehicleCorvetteDrift,
+			moods = {
+				[1] = "onlineMoodsDowntownFog"
+			},
+			trafficSet = 4,
+		}
+	},
+	[48] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Gates and Garages"].roads
+			spawnPosition.route = routes["Gates and Garages"].checkpoints
+			spawnPosition.arrows = routes["Gates and Garages"].arrows
+			spawnPosition.target = routes["Gates and Garages Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Gates and Garages Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Gates and Garages Start"].checkpoints[1].heading
+			spawnPosition.endTargetRoads = routes["Gates and Garages Target"].roads
+		end,
+		spawnPositions = {
+			routeName = "RouteData\\MP_SprintRace50.lua",
+			vehicleSet = OnlineModeSettings.vehicleSolGXPNisCorv,
+			moods = {
+				[1] = "onlineMoodsDowntownFog"
+			},
+			trafficSet = 1,
 		}
 	},
 }
