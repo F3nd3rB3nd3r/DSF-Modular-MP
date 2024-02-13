@@ -35,11 +35,11 @@ cardSystem.formattedMissionData["MP sprint race"].missionFunctions.missionStart 
       checkpointSystem.createNoneSyncronisedCheckpoint(instance.instanceID, 1, checkpointData)
     end
 	
-    --Check settings
-    local settings = customMPcontent.settings.getSprintRaceAdditionalSettings(routeIndex)
-    if settings then
-      settings.startSettings()
-    end
+	--Check settings
+	local settings = customMPcontent.settings.getSprintRaceAdditionalSettings(routeIndex)
+	if settings then
+	  settings.startSettings()
+	end
   end
   
   for playerID, player in next, playerManager.players, nil do
