@@ -313,6 +313,52 @@ local pureRaceAdditonalSettings = {
 		unblockBoost()
 	end
  },
+ [51] = {
+	preStartSettings = function()
+	end,
+	startSettings = function()
+		PropSystem.CreateRuntimeProps({
+			{
+				modelUID = "0x2d94e6b307ec1270",
+				position = vec.vector(0,1, -2, 1),
+				attachVehicle = localPlayer.currentVehicle.gameVehicle
+			}
+		})
+		feedbackSystem.menusMaster.primaryTextPrompt("A WILD BARRICADE HAS APPEARED", false, false, false, false)
+	end,
+	cleanUp = function()
+	end
+ },
+ [52] = {
+	preStartSettings = function()
+	end,
+	startSettings = function()
+		abilities.ghost.abilityFunction()
+	end,
+	cleanUp = function()
+		abilities.ghost.stopAbilityFunction()
+	end
+ },
+ [53] = {
+	preStartSettings = function()
+	end,
+	startSettings = function()
+		GameVehicleResource.setInfiniteMass(localPlayer.currentVehicle.gameVehicle, true)
+	end,
+	cleanUp = function()
+		GameVehicleResource.setInfiniteMass(localPlayer.currentVehicle.gameVehicle, false)
+	end
+ },
+ [63] = {
+	preStartSettings = function()
+	end,
+	startSettings = function()
+		GameVehicleResource.fullVisualDamage(localPlayer.currentVehicle.gameVehicle)
+		GameVehicleResource.detachWheel(localPlayer.currentVehicle.gameVehicle, 2)
+	end,
+	cleanUp = function()
+	end
+ },
 }
 
 function pureRaceCarSwitch(instance) 

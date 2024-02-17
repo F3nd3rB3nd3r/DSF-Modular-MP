@@ -492,3 +492,93 @@ OnlineModeSettings.fiat500Only = {
     }
   }
 }
+OnlineModeSettings.classicChevyMuscle = {
+  [1] = {
+    vehicleID = 146,
+    shader = {
+      [0] = -1
+    }
+  },
+  [2] = {
+    vehicleID = 153,
+    shader = {
+      [0] = -1
+    }
+  },
+  [3] = {
+    vehicleID = 161,
+    shader = {
+      [0] = -1
+    }
+  },
+  [4] = {
+    vehicleID = 164,
+    shader = {
+      [0] = -1
+    }
+  }
+}
+OnlineModeSettings.stakeTruck = {
+  [1] = {
+    vehicleID = 290,
+    shader = {
+      [0] = -1
+    }
+  },
+}
+OnlineModeSettings.audiRS6 = {
+  [1] = {
+    vehicleID = 255,
+    shader = {
+      [0] = -1
+    }
+  }
+}
+OnlineModeSettings.garbageTruck = {
+  [1] = {
+    vehicleID = 284,
+    shader = {
+      [0] = -1
+    }
+  }
+}
+OnlineModeSettings.shelbyCobra427 = {
+  [1] = {
+    vehicleID = 246,
+    shader = {
+      [0] = -1
+    }
+  }
+}
+OnlineModeSettings.airportFireTruck = {
+  [1] = {
+    vehicleID = 186,
+    shader = {
+      [0] = -1
+    }
+  }
+}
+OnlineModeSettings.cityBus = {
+  [1] = {
+    vehicleID = 167,
+    shader = {
+      [0] = -1
+    }
+  }
+}
+OnlineModeSettings.dodgeNeon = {
+  [1] = {
+    vehicleID = 179,
+    shader = {
+      [0] = -1
+    }
+  }
+}
+OnlineModeSettings.fordF350 = {
+  [1] = {
+    vehicleID = 252,
+    shader = {
+      [0] = -1
+    }
+  }
+}

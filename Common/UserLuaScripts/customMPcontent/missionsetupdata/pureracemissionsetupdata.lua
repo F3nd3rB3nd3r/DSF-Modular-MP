@@ -733,6 +733,259 @@ local pureRaceMissionSetupData = {
 			trafficSet = 2
 		}
 	},
+	[50] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Classic Chevy Race"].roads
+			spawnPosition.arrows = routes["Classic Chevy Race"].arrows
+			spawnPosition.route = routes["Classic Chevy Race"].checkpoints
+			spawnPosition.target = routes["Classic Chevy Race Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Classic Chevy Race Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Classic Chevy Race Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace48.lua",
+			vehicleSet = OnlineModeSettings.classicChevyMuscle,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 11
+		}
+	},
+	[51] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Flipping stakes"].roads
+			spawnPosition.arrows = routes["Flipping stakes"].arrows
+			spawnPosition.route = routes["Flipping stakes"].checkpoints
+			spawnPosition.target = routes["Flipping stakes Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Flipping stakes Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Flipping stakes Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace49.lua",
+			vehicleSet = OnlineModeSettings.stakeTruck,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = -1
+		}
+	},
+	[52] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Spookii race"].roads
+			spawnPosition.arrows = routes["Spookii race"].arrows
+			spawnPosition.route = routes["Spookii race"].checkpoints
+			spawnPosition.target = routes["Spookii race Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Spookii race Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Spookii race Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace50.lua",
+			vehicleSet = OnlineModeSettings.RUFCTR_Yellowbird,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 2
+		}
+	},
+	[53] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Heavy bois"].roads
+			spawnPosition.arrows = routes["Heavy bois"].arrows
+			spawnPosition.route = routes["Heavy bois"].checkpoints
+			spawnPosition.target = routes["Heavy bois Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Heavy bois Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Heavy bois Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace51.lua",
+			vehicleSet = OnlineModeSettings.audiRS6,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 13
+		}
+	},
+	[54] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Circular Speeding"].roads
+			spawnPosition.arrows = routes["Circular Speeding"].arrows
+			spawnPosition.route = routes["Circular Speeding"].checkpoints
+			spawnPosition.target = routes["Circular Speeding Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Circular Speeding Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Circular Speeding Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace52.lua",
+			vehicleSet = OnlineModeSettings.vehicleTypeRoad,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 4
+		}
+	},
+	[55] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Alcatraz Loop"].roads
+			spawnPosition.arrows = routes["Alcatraz Loop"].arrows
+			spawnPosition.route = routes["Alcatraz Loop"].checkpoints
+			spawnPosition.target = routes["Alcatraz Loop Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Alcatraz Loop Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Alcatraz Loop Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 2
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 2
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace53.lua",
+			vehicleSet = OnlineModeSettings.classicChevyMuscle,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 11
+		}
+	},
+	[56] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["A Simple Race"].roads
+			spawnPosition.arrows = routes["A Simple Race"].arrows
+			spawnPosition.route = routes["A Simple Race"].checkpoints
+			spawnPosition.target = routes["A Simple Race Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["A Simple Race Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["A Simple Race Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace54.lua",
+			vehicleSet = OnlineModeSettings.vehicleTypeMuscle,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 11
+		}
+	},
+	[57] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Historical Fiat"].roads
+			spawnPosition.arrows = routes["Historical Fiat"].arrows
+			spawnPosition.route = routes["Historical Fiat"].checkpoints
+			spawnPosition.target = routes["Historical Fiat Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Historical Fiat Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Historical Fiat Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace55.lua",
+			vehicleSet = OnlineModeSettings.vehicleTypeMuscle,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 11
+		}
+	},
+	[58] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Garbage Collection"].roads
+			spawnPosition.arrows = routes["Garbage Collection"].arrows
+			spawnPosition.route = routes["Garbage Collection"].checkpoints
+			spawnPosition.target = routes["Garbage Collection Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Garbage Collection Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Garbage Collection Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace56.lua",
+			vehicleSet = OnlineModeSettings.garbageTruck,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 2,
+			propData = {name = "PureRace56"}
+		}
+	},
+	[59] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Shelby Session"].roads
+			spawnPosition.arrows = routes["Shelby Session"].arrows
+			spawnPosition.route = routes["Shelby Session"].checkpoints
+			spawnPosition.target = routes["Shelby Session Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Shelby Session Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Shelby Session Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace57.lua",
+			vehicleSet = OnlineModeSettings.shelbyCobra427,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 11,
+		}
+	},
+	[60] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Dockyard Spiral"].roads
+			spawnPosition.arrows = routes["Dockyard Spiral"].arrows
+			spawnPosition.route = routes["Dockyard Spiral"].checkpoints
+			spawnPosition.target = routes["Dockyard Spiral Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Dockyard Spiral Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Dockyard Spiral Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace58.lua",
+			vehicleSet = OnlineModeSettings.airportFireTruck,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 3,
+		}
+	},
+	[61] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["City Spiral"].roads
+			spawnPosition.arrows = routes["City Spiral"].arrows
+			spawnPosition.route = routes["City Spiral"].checkpoints
+			spawnPosition.target = routes["City Spiral Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["City Spiral Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["City Spiral Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace59.lua",
+			vehicleSet = OnlineModeSettings.cityBus,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 7,
+		}
+	},
+	[62] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Tollbooth Loop"].roads
+			spawnPosition.arrows = routes["Tollbooth Loop"].arrows
+			spawnPosition.route = routes["Tollbooth Loop"].checkpoints
+			spawnPosition.target = routes["Tollbooth Loop Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Tollbooth Loop Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Tollbooth Loop Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 4
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 4
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace60.lua",
+			vehicleSet = OnlineModeSettings.dodgeNeon,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 1,
+		}
+	},
+	[63] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Beat Up Ride"].roads
+			spawnPosition.arrows = routes["Beat Up Ride"].arrows
+			spawnPosition.route = routes["Beat Up Ride"].checkpoints
+			spawnPosition.target = routes["Beat Up Ride Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Beat Up Ride Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Beat Up Ride Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 4
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 4
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace61.lua",
+			vehicleSet = OnlineModeSettings.fordF350,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 1,
+		}
+	},
 }
 
 function getPureRaceMissionSetupData(routeIndex)
