@@ -1,98 +1,18 @@
-cardSystem.logic.missionSetupData["Multiplayer trail blazer"].buildSpawnPositionFunctions[8] = function(spawnPosition)
-    spawnPosition.target = routes.MP_Trailblazer_Spawn_08.checkpoints[1].position
-    spawnPosition.positionA = routes.MP_Trailblazer_Spawn_08.checkpoints[1].position
-    spawnPosition.headingA = routes.MP_Trailblazer_Spawn_08.checkpoints[1].heading
-    spawnPosition.positionB = routes.MP_Trailblazer_Spawn_08.checkpoints[2].position
-    spawnPosition.headingB = routes.MP_Trailblazer_Spawn_08.checkpoints[2].heading
-  end
-  
-cardSystem.logic.missionSetupData["Multiplayer trail blazer"].spawnPositions[1] = {
-    modeRouteName = "MP_Trailblazer_Route_01",
-    routeName = "RouteData\\MP_Trailblazer01.lua",
-    moods = OnlineModeSettings.onlineMoodsDowntown1,
-    frequenceAndVehicles = {
-      [1] = {
-        trafficSet = 4,
-        trafficFrequency = 0,
-        vehicleSet = OnlineModeSettings.vehicleTypeTraffic01
-      },
-      [2] = {
-        trafficSet = 4,
-        trafficFrequency = 1,
-        vehicleSet = OnlineModeSettings.vehicleTypeTraffic02
-      },
-      [3] = {
-        trafficSet = 4,
-        trafficFrequency = 2,
-        vehicleSet = OnlineModeSettings.vehicleTypeTraffic03
-      }
-    },
-    missionVehicle = {
-      vehicleID = 291,
-      shader = {
-        [0] = 0
-      }
-    }
-  }
-cardSystem.logic.missionSetupData["Multiplayer trail blazer"].spawnPositions[5] = {
-    modeRouteName = "MP_Trailblazer_Route_05",
-    routeName = "RouteData\\MP_Trailblazer05.lua",
-    moods = OnlineModeSettings.onlineMoodsFrozen,
-    frequenceAndVehicles = {
-      [1] = {
-        trafficSet = 4,
-        trafficFrequency = 0,
-        vehicleSet = OnlineModeSettings.vehicleTypeTraffic01
-      },
-      [2] = {
-        trafficSet = 4,
-        trafficFrequency = 1,
-        vehicleSet = OnlineModeSettings.vehicleTypeTraffic02
-      },
-      [3] = {
-        trafficSet = 4,
-        trafficFrequency = 2,
-        vehicleSet = OnlineModeSettings.vehicleTypeTraffic03
-      }
-    },
-    missionVehicle = {
-      vehicleID = 276,
-      shader = {
-        [0] = 0
-      }
-    }
-  }
-cardSystem.logic.missionSetupData["Multiplayer trail blazer"].spawnPositions[8] = {
-    modeRouteName = "MP_Trailblazer_Route_08",
-    routeName = "RouteData\\MP_Trailblazer08.lua",
-    moods = OnlineModeSettings.onlineMoodsAlone,
-    frequenceAndVehicles = {
-      [1] = {
-        trafficSet = 4,
-        trafficFrequency = 0,
-        vehicleSet = OnlineModeSettings.vehicleTypeTraffic01
-      },
-      [2] = {
-        trafficSet = 4,
-        trafficFrequency = 1,
-        vehicleSet = OnlineModeSettings.vehicleTypeTraffic02
-      },
-      [3] = {
-        trafficSet = 4,
-        trafficFrequency = 2,
-        vehicleSet = OnlineModeSettings.vehicleTypeTraffic03
-      }
-    },
-    missionVehicle = {
-      vehicleID = 181,
-      shader = {
-        [0] = 0
-      }
-    }
-  }
+local i = 1
+local lastCustomRoute = customMPcontent.missionSetupData.getTrailblazerMissionSetupDataLastKeyIndex()
+while true do
+  local customMissionSetupData = customMPcontent.missionSetupData.getTrailblazerMissionSetupData(i)
 
-for i = 1, 8 do
-  cardSystem.logic.missionSetupData["Multiplayer trail blazer"].usableRouteIndicies[i] = i
+  if not customMissionSetupData and lastCustomRoute < i then
+    break;
+  end
+
+  if customMissionSetupData then
+    cardSystem.logic.missionSetupData["Multiplayer trail blazer"].buildSpawnPositionFunctions[i] = customMissionSetupData.buildSpawnPositionFunctions  
+    cardSystem.logic.missionSetupData["Multiplayer trail blazer"].spawnPositions[i] = customMissionSetupData.spawnPositions
+  end
+
+  i = i + 1
 end
 
 cardSystem.formattedMissionData["MP trail blazer"].challenge.missionCompleteData = function(instance, syncedScoreTable)
@@ -125,12 +45,11 @@ cardSystem.formattedMissionData["MP trail blazer"].challenge.missionCompleteData
   
   local settings = customMPcontent.settings.getTrailblazerAdditionalSettings(routeIndex)
   if settings then
-	settings.cleanUp()
+	  settings.cleanUp()
   end
 end
 
 cardSystem.formattedMissionData["MP trail blazer"].missionFunctions.initiate = function(instance)
-print("test message init")
   if not instance.taskObjectsByActorID[OBJ_TEAM_ONE_STRING_TABLE[1]] then
     local routeIndex = instance.networkVars.routeIndex
     local trailBlazerActor = instance.challenge.actorPool[OBJ_TEAM_ONE_STRING_TABLE[1]]
@@ -143,7 +62,7 @@ print("test message init")
 	
 	local settings = customMPcontent.settings.getTrailblazerAdditionalSettings(routeIndex)
 	if settings then
-		settings.initiateSettings(trailBlazerVehicle)
+		settings.preStartSettings(trailBlazerVehicle)
 	end
 	
   end

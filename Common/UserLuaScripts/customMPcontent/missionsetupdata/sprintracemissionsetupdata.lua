@@ -10,7 +10,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.positionA = routes["Sprint Race Start 26"].checkpoints[1].position
 			spawnPosition.headingA = routes["Sprint Race Start 26"].checkpoints[1].heading
 			spawnPosition.endTargetRoads = routes["Sprint Race Target 26"].roads
-				end,
+		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace26.lua",
 			vehicleSet = OnlineModeSettings.vehicleTypeMixed02,

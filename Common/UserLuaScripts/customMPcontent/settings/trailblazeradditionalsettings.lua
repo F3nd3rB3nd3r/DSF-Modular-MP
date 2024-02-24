@@ -2,6 +2,8 @@ module("customMPcontent.settings", package.seeall)
 
 local trailblazerAdditionalSettings = {
 	[1] = {
+		preStartSettings = function()
+		end,
 		startSettings = function(instance)
 			local blazingTO = instance.taskObjectsByActorID[OBJ_TEAM_ONE_STRING_TABLE[1]]
 			local smokeParams1 = {
@@ -26,8 +28,6 @@ local trailblazerAdditionalSettings = {
 			}
 			ParticleEditor.TriggerEvent(smokeParams3)
 		end,
-		initiateSettings = function()
-		end,
 		cleanUp = function()
 		  ParticleEditor.StopEvent(103)
 		  ParticleEditor.StopEvent(104)
@@ -35,9 +35,7 @@ local trailblazerAdditionalSettings = {
 		end
 	},
 	[5] = {
-		startSettings = function(instance)
-		end,
-		initiateSettings = function(trailBlazerVehicle)
+		preStartSettings = function(trailBlazerVehicle)
 			Sound.OverrideAmbience("Amb_Mis_Frozen_Play")
 			civilianTraffic.setTrafficStoppedOnOff(true)
 			characterManager.FreezePeds()
@@ -46,6 +44,8 @@ local trailblazerAdditionalSettings = {
 			Sound.TurnOff("CivHorns", true)
 			Sound.OverrideEnvironment("AMB_REVERB_FROZEN", 1)
 			trailBlazerVehicle:activateSiren()
+		end,
+		startSettings = function()
 		end,
 		cleanUp = function()
 			characterManager.UnfreezePeds()
