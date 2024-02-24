@@ -9,7 +9,7 @@ local function isPlayerInPartyBus()
 		print("Loading logic potentially got stuck in a loop")
 		PauseMenu.quit()
 	end
-	if PartyBusManager.IsInPartyBus() then
+	if vehicleManager.multiplayerBusManager.multiplayerBusActive then
 		print("loading custom MP files")
 		attemptsMade = attemptsMade + 1
 		loadFile("filelist.lua")
