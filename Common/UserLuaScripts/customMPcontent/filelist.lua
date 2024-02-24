@@ -171,6 +171,8 @@ local fileList = {
     "settings\\trailblazeradditionalsettings.lua",
     "missionsetupdata\\pureracemissionsetupdata.lua",
     "missionsetupdata\\sprintracemissionsetupdata.lua",
+    "missionsetupdata\\takedownmissionsetupdata.lua",
+    "missionsetupdata\\trailblazermissionsetupdata.lua",
     "Logic\\pureracelogic.lua",
     "Logic\\sprintracelogic.lua",
     "Logic\\takedownlogic.lua",
