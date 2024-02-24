@@ -92,7 +92,7 @@ cardSystem.logic.missionSetupData["Multiplayer trail blazer"].spawnPositions[8] 
   }
 
 for i = 1, 8 do
-  cardSystem.logic.missionSetupData["Multiplayer trail blazer"].usableRouteIndicies[i] = 5
+  cardSystem.logic.missionSetupData["Multiplayer trail blazer"].usableRouteIndicies[i] = i
 end
 
 cardSystem.formattedMissionData["MP trail blazer"].challenge.missionCompleteData = function(instance, syncedScoreTable)

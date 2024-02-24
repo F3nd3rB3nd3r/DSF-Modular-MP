@@ -317,14 +317,17 @@ local pureRaceAdditonalSettings = {
 	preStartSettings = function()
 	end,
 	startSettings = function()
-		PropSystem.CreateRuntimeProps({
-			{
-				modelUID = "0x2d94e6b307ec1270",
-				position = vec.vector(0,1, -2, 1),
-				attachVehicle = localPlayer.currentVehicle.gameVehicle
-			}
-		})
-		feedbackSystem.menusMaster.primaryTextPrompt("A WILD BARRICADE HAS APPEARED", false, false, false, false)
+		for _, player in pairs(playerManager.players) do
+			if player and player.currentVehicle then
+				PropSystem.CreateRuntimeProps({
+					{
+						modelUID = "0x26d2f9f935591200",
+						position = vec.vector(0, 2.8, 1.6, 1),
+						attachVehicle = player.currentVehicle.gameVehicle
+					}
+				})
+			end
+		end
 	end,
 	cleanUp = function()
 	end

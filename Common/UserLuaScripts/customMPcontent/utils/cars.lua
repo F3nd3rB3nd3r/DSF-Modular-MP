@@ -178,7 +178,7 @@ OnlineModeSettings.RUFCTR_Yellowbird = {
     }
   },
   [2] = {
-    vehicleID = 276,
+    vehicleID = 240,
     shader = {
       [0] = -1
     }
@@ -544,7 +544,7 @@ OnlineModeSettings.garbageTruck = {
 }
 OnlineModeSettings.shelbyCobra427 = {
   [1] = {
-    vehicleID = 246,
+    vehicleID = 248,
     shader = {
       [0] = -1
     }

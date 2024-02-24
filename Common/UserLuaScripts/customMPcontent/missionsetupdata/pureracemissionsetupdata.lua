@@ -759,14 +759,14 @@ local pureRaceMissionSetupData = {
 			spawnPosition.target = routes["Flipping stakes Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Flipping stakes Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Flipping stakes Start"].checkpoints[1].heading
-			cardSystem.logic.mpPureRaceLapCount = 0
-			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
+			cardSystem.logic.mpPureRaceLapCount = 1
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 1
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace49.lua",
 			vehicleSet = OnlineModeSettings.stakeTruck,
 			moods = OnlineModeSettings.onlineMoodsMarin,
-			trafficSet = -1
+			trafficSet = 6
 		}
 	},
 	[52] = {
@@ -831,8 +831,8 @@ local pureRaceMissionSetupData = {
 			spawnPosition.target = routes["Alcatraz Loop Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Alcatraz Loop Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Alcatraz Loop Start"].checkpoints[1].heading
-			cardSystem.logic.mpPureRaceLapCount = 2
-			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 2
+			cardSystem.logic.mpPureRaceLapCount = 1
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 1
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace53.lua",
@@ -976,8 +976,8 @@ local pureRaceMissionSetupData = {
 			spawnPosition.target = routes["Beat Up Ride Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Beat Up Ride Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Beat Up Ride Start"].checkpoints[1].heading
-			cardSystem.logic.mpPureRaceLapCount = 4
-			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 4
+			cardSystem.logic.mpPureRaceLapCount = 0
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 0
 		end,
 		spawnPositions = {
 			routeName = "routes\\MP_PureRace61.lua",

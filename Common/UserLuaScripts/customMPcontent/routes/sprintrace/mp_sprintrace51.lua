@@ -74,7 +74,6 @@ routes["Downtown Sprint"].roads[11].direction = "with"
 routes["Downtown Sprint"].roads[12] = {}
 routes["Downtown Sprint"].roads[12].road = "mt_6l_centre_04 AI Road 1"
 routes["Downtown Sprint"].roads[12].direction = "with"
-
 routes["Downtown Sprint Start"] = {}
 routes["Downtown Sprint Start"].arrows = {}
 routes["Downtown Sprint Start"].checkpoints = {}
