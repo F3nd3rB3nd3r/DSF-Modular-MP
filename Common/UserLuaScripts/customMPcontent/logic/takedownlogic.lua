@@ -183,7 +183,7 @@ cardSystem.logic.missionSetupData["Multiplayer takedown"].spawnPositions[16] = {
   
   
 for i = 11, 16 do 
-	cardSystem.logic.missionSetupData["Multiplayer takedown"].usableRouteIndicies[i] = id 
+	cardSystem.logic.missionSetupData["Multiplayer takedown"].usableRouteIndicies[i] = i
 end
 
 cardSystem.formattedMissionData["MP takedown"].missionFunctions.missionCompleteData = function(instance, syncedScoreTable, teamSync, additionalSyncData)

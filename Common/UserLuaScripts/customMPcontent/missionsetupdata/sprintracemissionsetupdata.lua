@@ -292,7 +292,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["There is a tollbooth in this game? Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["There is a tollbooth in this game? Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["There is a tollbooth in this game? Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["There is a tollbooth in this game? Target"].roads
+			spawnPosition.endTargetRoads = routes["There is a tollbooth in this game? Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace43.lua",
@@ -309,7 +309,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Tight Start Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Tight Start Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Tight Start Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Tight Start Target"].roads
+			spawnPosition.endTargetRoads = routes["Tight Start Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace44.lua",
@@ -326,7 +326,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Roundabout Flashback Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Roundabout Flashback Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Roundabout Flashback Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Roundabout Flashback Target"].roads
+			spawnPosition.endTargetRoads = routes["Roundabout Flashback Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace45.lua",
@@ -343,7 +343,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Not Enough Time Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Not Enough Time Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Not Enough Time Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Not Enough Time Target"].roads
+			spawnPosition.endTargetRoads = routes["Not Enough Time Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace46.lua",
@@ -360,7 +360,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["HOA Crossing Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["HOA Crossing Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["HOA Crossing Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["HOA Crossing Target"].roads
+			spawnPosition.endTargetRoads = routes["HOA Crossing Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace47.lua",
@@ -377,7 +377,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Quick Repair Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Quick Repair Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Quick Repair Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Quick Repair Target"].roads
+			spawnPosition.endTargetRoads = routes["Quick Repair Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace48.lua",
@@ -394,7 +394,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Bullrun Loop Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Bullrun Loop Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Bullrun Loop Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Bullrun Loop Target"].roads
+			spawnPosition.endTargetRoads = routes["Bullrun Loop Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace49.lua",
@@ -411,7 +411,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Gates and Garages Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Gates and Garages Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Gates and Garages Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Gates and Garages Target"].roads
+			spawnPosition.endTargetRoads = routes["Gates and Garages Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace50.lua",
@@ -428,7 +428,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Downtown Sprint Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Downtown Sprint Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Downtown Sprint Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Downtown Sprint Target"].roads
+			spawnPosition.endTargetRoads = routes["Downtown Sprint Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace51.lua",
@@ -445,7 +445,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["ZigZag Police Station Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["ZigZag Police Station Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["ZigZag Police Station Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["ZigZag Police Station Target"].roads
+			spawnPosition.endTargetRoads = routes["ZigZag Police Station Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace52.lua",
@@ -462,7 +462,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["From Initial Garage To Downtown Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["From Initial Garage To Downtown Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["From Initial Garage To Downtown Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Gates and Garages Target"].roads
+			spawnPosition.endTargetRoads = routes["From Initial Garage To Downtown Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace53.lua",
@@ -479,7 +479,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Dirty Twist and Jump Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Dirty Twist and Jump Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Dirty Twist and Jump Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Dirty Twist and Jump Target"].roads
+			spawnPosition.endTargetRoads = routes["Dirty Twist and Jump Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace54.lua",
@@ -496,7 +496,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Up The Hill Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Up The Hill Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Up The Hill Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Up The Hill Target"].roads
+			spawnPosition.endTargetRoads = routes["Up The Hill Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace55.lua",
@@ -513,7 +513,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["City Figure Eight Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["City Figure Eight Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["City Figure Eight Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["City Figure Eight Target"].roads
+			spawnPosition.endTargetRoads = routes["City Figure Eight Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace56.lua",
@@ -530,7 +530,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Sneaky Route Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Sneaky Route Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Sneaky Route Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Sneaky Route Target"].roads
+			spawnPosition.endTargetRoads = routes["Sneaky Route Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace57.lua",
@@ -547,7 +547,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Left Four Long Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Left Four Long Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Left Four Long Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Left Four Long Target"].roads
+			spawnPosition.endTargetRoads = routes["Left Four Long Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace58.lua",
@@ -564,7 +564,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Mixed Surface Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Mixed Surface Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Mixed Surface Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Mixed Surface Target"].roads
+			spawnPosition.endTargetRoads = routes["Mixed Surface Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace59.lua",
@@ -581,7 +581,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Rally Shakedown Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Rally Shakedown Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Rally Shakedown Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Rally Shakedown Target"].roads
+			spawnPosition.endTargetRoads = routes["Rally Shakedown Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace60.lua",
@@ -598,7 +598,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Double S Bend Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Double S Bend Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Double S Bend Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Double S Bend Target"].roads
+			spawnPosition.endTargetRoads = routes["Double S Bend Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace61.lua",
@@ -615,7 +615,7 @@ local sprintRaceMissionSetupData = {
 			spawnPosition.target = routes["Alleyway To Alleyway Start"].checkpoints[1].position
 			spawnPosition.positionA = routes["Alleyway To Alleyway Start"].checkpoints[1].position
 			spawnPosition.headingA = routes["Alleyway To Alleyway Start"].checkpoints[1].heading
-			spawnPosition.endTargetRoads = routes["Alleyway To Alleyway Target"].roads
+			spawnPosition.endTargetRoads = routes["Alleyway To Alleyway Start"].roads
 		end,
 		spawnPositions = {
 			routeName = "RouteData\\MP_SprintRace62.lua",

@@ -15,7 +15,6 @@ while true do
 	i = i + 1
 end
 
-local boomPlayed = false
 cardSystem.formattedMissionData["MP pure race"].missionFunctions.stepHighlightColours = function(instance)
   if not instance.playersColours then
     instance.playersColours = {
