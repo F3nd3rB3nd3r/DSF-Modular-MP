@@ -183,6 +183,7 @@ local fileList = {
 }
   
 local index = 1
+local verisonDisplay = "(".. customMPcontent.getVersion() ..")"
 
 feedbackSystem.menusMaster.onlineHUDSetVariable("iMulti_Scoring_Text_Display", 2)
 
@@ -195,6 +196,6 @@ addUserUpdateFunction("loadMPfiles", function()
 		removeUserUpdateFunction("loadMPfiles")
 		print("loaded")
         feedbackSystem.menusMaster.onlineHUDSetVariable("iMulti_Scoring_Text_Display", 1)
-		feedbackSystem.menusMaster.primaryTextPrompt("CUSTOM CONTENT LOADED")
+		feedbackSystem.menusMaster.primaryTextPrompt("CUSTOM CONTENT LOADED " .. verisonDisplay)
 	end
 end, 5)
