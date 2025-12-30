@@ -1,19 +1,12 @@
-local i = 26
+local setupTable = customMPcontent.missionSetupData.getSprintRaceCustomMissionSetupTable()
 
-while true do 
-	local customMissionSetupData = customMPcontent.missionSetupData.getSprintRaceMissionSetupData(i)
+for routeIndex, setupData in pairs(setupTable) do
+	cardSystem.logic.missionSetupData["Multiplayer sprint race"].usableRouteIndicies[routeIndex] = routeIndex
 	
-	if not customMissionSetupData then
-		break;
-	end
-
-	cardSystem.logic.missionSetupData["Multiplayer sprint race"].usableRouteIndicies[i] = i
-
-	cardSystem.logic.missionSetupData["Multiplayer sprint race"].buildSpawnPositionFunctions[i] = customMissionSetupData.buildSpawnPositionFunctions
-
-	cardSystem.logic.missionSetupData["Multiplayer sprint race"].spawnPositions[i] = customMissionSetupData.spawnPositions
-	i = i + 1
-end 
+	cardSystem.logic.missionSetupData["Multiplayer sprint race"].buildSpawnPositionFunctions[routeIndex] = setupData.buildSpawnPositionFunctions
+	
+	cardSystem.logic.missionSetupData["Multiplayer sprint race"].spawnPositions[routeIndex] = setupData.spawnPositions
+end
 
 cardSystem.formattedMissionData["MP sprint race"].missionFunctions.missionEnd = function(instance)
   removeUserUpdateFunction("setNewPlayerVehicleMaxDamage")

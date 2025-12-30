@@ -1,18 +1,11 @@
-local i = 10
+local setupTable = customMPcontent.missionSetupData.getPureRaceCustomMissionSetupTable()
 
-while true do 
-	local customMissionSetupData = customMPcontent.missionSetupData.getPureRaceMissionSetupData(i)
+for routeIndex, setupData in pairs(setupTable) do
+	cardSystem.logic.missionSetupData["Multiplayer pure race"].usableRouteIndicies[routeIndex] = routeIndex
 	
-	if not customMissionSetupData then
-		break;
-	end
-
-	cardSystem.logic.missionSetupData["Multiplayer pure race"].usableRouteIndicies[i] = i
+	cardSystem.logic.missionSetupData["Multiplayer pure race"].buildSpawnPositionFunctions[routeIndex] = setupData.buildSpawnPositionFunctions
 	
-	cardSystem.logic.missionSetupData["Multiplayer pure race"].buildSpawnPositionFunctions[i] = customMissionSetupData.buildSpawnPositionFunctions
-	
-	cardSystem.logic.missionSetupData["Multiplayer pure race"].spawnPositions[i] = customMissionSetupData.spawnPositions
-	i = i + 1
+	cardSystem.logic.missionSetupData["Multiplayer pure race"].spawnPositions[routeIndex] = setupData.spawnPositions
 end
 
 cardSystem.formattedMissionData["MP pure race"].missionFunctions.stepHighlightColours = function(instance)

@@ -1,19 +1,13 @@
-local i = 1
-local lastCustomRoute = customMPcontent.missionSetupData.getTrailblazerMissionSetupDataLastKeyIndex()
-while true do
-  local customMissionSetupData = customMPcontent.missionSetupData.getTrailblazerMissionSetupData(i)
+local setupTable = customMPcontent.missionSetupData.getTrailblazerCustomMissionSetupTable()
 
-  if not customMissionSetupData and lastCustomRoute < i then
-    break;
-  end
-
-  if customMissionSetupData then
-    cardSystem.logic.missionSetupData["Multiplayer trail blazer"].buildSpawnPositionFunctions[i] = customMissionSetupData.buildSpawnPositionFunctions  
-    cardSystem.logic.missionSetupData["Multiplayer trail blazer"].spawnPositions[i] = customMissionSetupData.spawnPositions
-  end
-
-  i = i + 1
+for routeIndex, setupData in pairs(setupTable) do
+	cardSystem.logic.missionSetupData["Multiplayer trail blazer"].usableRouteIndicies[routeIndex] = routeIndex
+	
+	cardSystem.logic.missionSetupData["Multiplayer trail blazer"].buildSpawnPositionFunctions[routeIndex] = setupData.buildSpawnPositionFunctions
+	
+	cardSystem.logic.missionSetupData["Multiplayer trail blazer"].spawnPositions[routeIndex] = setupData.spawnPositions
 end
+
 
 cardSystem.formattedMissionData["MP trail blazer"].challenge.missionCompleteData = function(instance, syncedScoreTable)
   for playerID, player in next, playerManager.players, nil do

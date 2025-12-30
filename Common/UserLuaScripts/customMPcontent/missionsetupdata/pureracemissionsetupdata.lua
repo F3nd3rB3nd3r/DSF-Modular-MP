@@ -986,8 +986,26 @@ local pureRaceMissionSetupData = {
 			trafficSet = 1,
 		}
 	},
+	[64] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+			spawnPosition.roads = routes["Lombard Street Once Again"].roads
+			spawnPosition.arrows = routes["Lombard Street Once Again"].arrows
+			spawnPosition.route = routes["Lombard Street Once Again"].checkpoints
+			spawnPosition.target = routes["Lombard Street Once Again Start"].checkpoints[1].position
+			spawnPosition.positionA = routes["Lombard Street Once Again Start"].checkpoints[1].position
+			spawnPosition.headingA = routes["Lombard Street Once Again Start"].checkpoints[1].heading
+			cardSystem.logic.mpPureRaceLapCount = 1
+			cardSystem.formattedMissionData["MP pure race"].challenge.settings.totalLaps = 1
+		end,
+		spawnPositions = {
+			routeName = "routes\\MP_PureRace62.lua",
+			vehicleSet = OnlineModeSettings.vehicleNewGT500,
+			moods = OnlineModeSettings.onlineMoodsMarin,
+			trafficSet = 1,
+		}
+	},
 }
 
-function getPureRaceMissionSetupData(routeIndex)
-	return pureRaceMissionSetupData[routeIndex]
+function getPureRaceCustomMissionSetupTable()
+	return pureRaceMissionSetupData
 end

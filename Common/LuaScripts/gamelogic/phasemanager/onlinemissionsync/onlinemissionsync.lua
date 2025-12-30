@@ -46,12 +46,12 @@ local progressionSets = {
     vehicleFrequencyCount = 1
   },
   [10] = {
-    name = "Challenge traffic heavy", 
+    name = "Challenge traffic heavy",
     vehicleFrequencyCount = 1
   },
   [11] = {
     name = "Challenge traffic", --1 modern, 2 Movie challenge traffic
-    vehicleFrequencyCount = 2
+    vehicleFrequencyCount = 3
   },
   [12] = {
     name = "Challenge traffic", --1 modern, 2 Movie challenge traffic
@@ -59,7 +59,7 @@ local progressionSets = {
   },
   [13] = {
     name = "Exposition Bullrun",
-    vehicleFrequencyCount = 0
+    vehicleFrequencyCount = 1
   }
 }
 function generateTrafficID(trafficID, vehicleFrequency)

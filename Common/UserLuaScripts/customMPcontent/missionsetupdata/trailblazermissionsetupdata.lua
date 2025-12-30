@@ -100,10 +100,6 @@ local trailblazerMissionSetupData = {
   }
 }
 
-function getTrailblazerMissionSetupData(routeIndex)
-  return trailblazerMissionSetupData[routeIndex]
-end
-
-function getTrailblazerMissionSetupDataLastKeyIndex()
-  return table.maxn(trailblazerMissionSetupData)
+function getTrailblazerCustomMissionSetupTable()
+	return trailblazerMissionSetupData
 end

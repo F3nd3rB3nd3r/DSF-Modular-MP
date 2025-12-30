@@ -626,6 +626,6 @@ local sprintRaceMissionSetupData = {
 	},
 }
 
-function getSprintRaceMissionSetupData(routeIndex)
-	return sprintRaceMissionSetupData[routeIndex]
+function getSprintRaceCustomMissionSetupTable()
+	return sprintRaceMissionSetupData
 end

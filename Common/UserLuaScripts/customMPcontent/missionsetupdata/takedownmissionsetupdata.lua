@@ -184,9 +184,73 @@ local takedownMissionSetupData = {
             moods = OnlineModeSettings.onlineMoodsTakedown2,
             cop = 302
 		}
+	},	
+	[17] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+            spawnPosition.route = routes.TakeDown_Route_12.checkpoints
+            spawnPosition.target = routes.TakeDown_Start_12.checkpoints[1].position
+            spawnPosition.positionA = routes.TakeDown_Start_12.checkpoints[1].position
+            spawnPosition.headingA = routes.TakeDown_Start_12.checkpoints[1].heading
+            spawnPosition.positionB = routes.TakeDown_Start_12.checkpoints[2].position
+            spawnPosition.headingB = routes.TakeDown_Start_12.checkpoints[2].heading
+            TrafficSpooler.RequestMissionVehicle(286)
+            TrafficSpooler.RequestMissionVehicle(183)
+        end,
+		spawnPositions = {
+            routeName = "RouteData\\MP_Takedown12.lua",
+            vehicleSet = {
+              {
+                vehicleID = 286,
+                shader = {
+                  [0] = 0
+                }
+              }
+            },
+            missionVehicle = {
+              vehicleID = 183,
+              shader = {
+                [0] = 7
+              }
+            },
+            trafficSet = 7,
+            moods = OnlineModeSettings.onlineMoodsTakedown2,
+            cop = 286
+		}
+	},	
+	[18] = {
+		buildSpawnPositionFunctions = function(spawnPosition)
+            spawnPosition.route = routes.TakeDown_Route_13.checkpoints
+            spawnPosition.target = routes.TakeDown_Start_13.checkpoints[1].position
+            spawnPosition.positionA = routes.TakeDown_Start_13.checkpoints[1].position
+            spawnPosition.headingA = routes.TakeDown_Start_13.checkpoints[1].heading
+            spawnPosition.positionB = routes.TakeDown_Start_13.checkpoints[2].position
+            spawnPosition.headingB = routes.TakeDown_Start_13.checkpoints[2].heading
+            TrafficSpooler.RequestMissionVehicle(302)
+            TrafficSpooler.RequestMissionVehicle(291)
+        end,
+		spawnPositions = {
+            routeName = "RouteData\\MP_Takedown13.lua",
+            vehicleSet = {
+              {
+                vehicleID = 291,
+                shader = {
+                  [0] = 0
+                }
+              }
+            },
+            missionVehicle = {
+              vehicleID = 258,
+              shader = {
+                [0] = 7
+              }
+            },
+            trafficSet = 7,
+            moods = OnlineModeSettings.onlineMoodsTakedown2,
+            cop = 291
+		}
 	},
 }
 
-function getTakedownMissionSetupData(routeIndex)
-	return takedownMissionSetupData[routeIndex]
+function getTakedownCustomMissionSetupTable()
+	return takedownMissionSetupData
 end
